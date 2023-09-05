@@ -29,7 +29,7 @@ useEffect(()=>{
 
     e.preventDefault();
     await axios.put(`http://localhost:8080/user/${id}`, user)
-    navigate("/");
+    navigate("/home");
   };
 
   const loadUser = async ()=>{

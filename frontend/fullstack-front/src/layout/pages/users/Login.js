@@ -17,9 +17,9 @@ let login = {"emailid":emailid,"password":password,"typeofuser":typeofuser};
 try{
 let result = await axios.post("http://localhost:8080/login/signIn",login);
 //console.log(result.data);
-if(result.data=="Congratulations!, you have successfully login as an Admin"){
-    navigate("/Admin");
-}else if(result.data=="Congratulations!, you have successfully login as a Customer"){
+if(result.data==="Congratulations!, you have successfully login as an Admin"){
+    navigate("/home");
+}else if(result.data==="Congratulations!, you have successfully login as a Customer"){
     navigate("/Customer");
 }else {
     alert(result.data);

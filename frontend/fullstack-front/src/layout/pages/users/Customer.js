@@ -5,8 +5,8 @@ function Customer() {
     return(
         <div>
             <h2>Welcome to Customer Home Page</h2>
-            <Link to="Home">View Medicine</Link>
-            <Link to="/">Logout</Link>
+            <Link to="AddUser">View Medicine</Link>
+            <Link to="/home">Logout</Link>
             <hr/>
             <Outlet></Outlet>
         </div>

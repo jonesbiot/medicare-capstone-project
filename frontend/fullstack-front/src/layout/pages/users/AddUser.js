@@ -93,8 +93,8 @@ export default function AddUser() {
               Submit
               
       </button>
-      <Link className="btn btn-outline-danger mx-2" to="/">
-              Cancel
+      <Link className="btn btn-outline-secondary mx-2" to="/">
+              View Medicine
               
       </Link>
       </form>
